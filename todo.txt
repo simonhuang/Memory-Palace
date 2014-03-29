@@ -1,0 +1,8 @@
+Backend
+=======
+Databse for users / authentication 
+SSL setup
+
+Front end
+=======
+Make interface
