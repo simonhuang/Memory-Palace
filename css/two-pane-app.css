@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', Tahoma, Arial;
+}
+
+.two-pane-app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.two-pane-app *, .two-pane-app *:after, .two-pane-app *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    header{
+        position: absolute;
+        height: 6em;
+        padding: 1.25em;
+        line-height: 2.5em;
+        width: 100%;
+        border-bottom: 0.0625em solid rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+        text-align: center;
+        margin:10px 0;
+    }
+    section{
+        position: absolute;
+        top: 6em;
+        bottom: 0;
+        width: 100%;
+    }
+    section .left {
+        border-right: 0.0625em solid rgba(0, 0, 0, 0.1);
+        position: absolute;
+        width: 30%;
+        height: 100%;
+        overflow: auto;
+        }
+        section .left div:first-child{
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        section .left .item {
+            height: 4em;
+            border-bottom: 0.0625em solid rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        section .left .item:nth-child(2) {
+             border-top: 0.0625em solid rgba(0, 0, 0, 0.1);
+        }
+        section .left .item:last-child {
+            border-bottom: 0.0625em solid rgba(0, 0, 0, 0.1);
+        }
+        section .left .item:hover {
+            background: rgba(0, 0, 0, 0.1);
+            border-bottom: 0.0625em solid rgba(0, 0, 0, 0);
+        }
+    section .right {
+        text-align: right;
+        position: absolute;
+        width: 70%;
+        right: 0;
+        height: 100%;
+        padding: 2em;
+        }
+        section .right canvas{
+            border: 10px solid rgb(200,200,200);
+            border-radius: 5px;
+            width:100%;
+            height:80%;
+        }
+
