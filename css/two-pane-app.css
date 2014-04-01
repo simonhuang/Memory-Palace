@@ -40,16 +40,10 @@ html, body {
         width: 30%;
         height: 100%;
         overflow: auto;
-        }
-        section .left div:first-child{
-            padding: 20px;
-            box-sizing: border-box;
-            text-align: center;
+        box-sizing: border-box;
         }
         section .left .item {
-            height: 4em;
             border-bottom: 0.0625em solid rgba(0, 0, 0, 0.1);
-            cursor: pointer;
         }
         section .left .item:nth-child(2) {
              border-top: 0.0625em solid rgba(0, 0, 0, 0.1);

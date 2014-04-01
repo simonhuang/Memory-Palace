@@ -11,3 +11,40 @@
     border:2px solid rgb(200,200,200);
     border-radius: 5px;
 }
+
+section .left>div:first-child{
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+section .left .item {
+    padding: 15px 25px;
+    height:100px;
+    }
+    .item .thumbnail{
+        height:70px;
+        width: auto;
+        float:left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid dimgrey;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+    .info{
+        text-align: right;
+        }
+        .info a{
+            text-decoration: none;
+            font-size: 0.8em;
+            color: white;
+            background: green;
+            padding: 3px 5px;
+            border-radius: 8px;
+
+        }
+        .info p{
+            font-size: 0.6em;
+            color:grey;
+            margin: 1em 1em 0 0;
+        }
