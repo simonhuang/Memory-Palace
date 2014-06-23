@@ -42,14 +42,8 @@ html, body {
         overflow: auto;
         box-sizing: border-box;
         }
-        section .left .item {
-            border-bottom: 0.0625em solid rgba(0, 0, 0, 0.1);
-        }
-        section .left .item:nth-child(2) {
-             border-top: 0.0625em solid rgba(0, 0, 0, 0.1);
-        }
-        section .left .item:last-child {
-            border-bottom: 0.0625em solid rgba(0, 0, 0, 0.1);
+        section .left>div {
+             border-bottom: 0.0625em solid rgba(0, 0, 0, 0.1);
         }
         section .left .item:hover {
             background: rgba(0, 0, 0, 0.1);
